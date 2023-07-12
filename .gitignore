@@ -1,4 +1,4 @@
 .DS_store
 .idea/
 corpus_images/
-*.pdf
+transcription/endp_*/*.pdf

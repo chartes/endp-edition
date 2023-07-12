@@ -1,4 +1,4 @@
-# Matériel de Transcription 
+# Matériel de transcription 
 
 ## Lien vers les images :camera_flash:
 

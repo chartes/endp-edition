@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="endp_ll117">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Registre capitulaire de Notre-Dame de Paris (1451-1454) - AN, LL 117</title>
+            <title type="sub">Projet e-NDP - Édition numérique des registres capitulaires médiévaux de Notre-Dame de Paris (1326-1504)</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Première édition numérique du registre capitulaire LL117</edition>
+            <respStmt>
+               <resp>Chaîne de traitement</resp>
+               <name ref="orcid:0000-0001-9518-1040" role="project_manager">
+                  <persName>Julie Claustre</persName>
+                  <orgName>LAMOP</orgName>
+               </name>
+               <name ref="orcid:0000-0002-4795-2362" role="project_manager">
+                  <persName>Smith Darwin</persName>
+                  <orgName>LAMOP</orgName>
+               </name>
+               <name ref="orcid:xxxx" role="transcriptor">
+                  <persName>Olivier Canteau</persName>
+                  <orgName>École nationale des chartes</orgName>
+               </name>
+               <name ref="orcid:0000-0003-0850-8266" role="engineer">
+                  <persName>Lucas Terriel</persName>
+                  <orgName>École nationale des chartes</orgName>
+               </name>
+               <name ref="orcid:0000-0003-0850-8266" role="engineer">
+                  <persName>Vincent Jolivet</persName>
+                  <orgName>École nationale des chartes</orgName>
+               </name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher ref="https://www.wikidata.org/wiki/Q273570">École des chartes</publisher>
+            <availability n="cc-by" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/4.0"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <idno>FRAN_IR_059635</idno>
+                  <title type="main">Registres capitulaires médiévaux de Notre-Dame de Paris</title>
+                  <title type="sub">Répertoire numérique détaillé des registres LL 105 à LL 127-128</title>
+                  <author>Hugo Regazzi</author>
+                  <author>Sébastien Nadiras</author>
+                  <imprint>
+                     <pubPlace ref="geonames:2988506">Pierrefitte-sur-Seine</pubPlace>
+                     <publisher>
+                        <orgName ref="geonames:2988506 wiki:Q398">Archives nationales</orgName>
+                     </publisher>
+                     <date when="2022">2022</date>
+                  </imprint>
+               </monogr>
+               <ref target="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_059635/Delib_914"/>
+            </biblStruct>
+            <!-- description d'un manuscrit -->
+            <msDesc>
+               <msIdentifier>
+                  <country ref="geonames:3017382">France</country>
+                  <settlement ref="geonames:2988506">Paris</settlement>
+                  <repository xml:lang="fr" ref="wikidata:Q182542 viaf:131469365">Archives nationales de France</repository>
+                  <idno type="serie">LL</idno>
+                  <idno type="cote">LL/117</idno>
+               </msIdentifier>
+               <!-- À conserver? -->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <!-- 33 x 23,5 x 6,5 cm -->
+                           <dimensions type="binding">
+                              <height unit="cm">33</height>
+                              <width unit="cm">23,5</width>
+                              <depth unit="cm">6,5</depth>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date from="1451" to="1454">1451-1454</date>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- - Description générique du projet et choix d'encodage -->
+         <projectDesc>
+            <p>Cette édition a été réalisée dans le cadre du projet ANR e-NDP. Son objectif principal
+               est de fournir un texte encodé selon les spécifications TEI destiné à l'exploration avec des outils électroniques. 
+               Préciser les objectifs de l'édition ....</p>
+            <p>Les textes encodés dans le cadre du projet e-NDP sont issus d'une campagne de numérisation des Archives nationales.</p>
+            <p>L'édition présentée ici est issue d'un processus de transcription automatique (HTR) réalisé avec le moteur Kraken et la production de vérité terrain avec le logiciel eScritporium.</p>
+         </projectDesc>
+      </encodingDesc>
+      <!-- * Description détaillée des aspects non bibliographiques du texte, notamment les langues utilisées et leurs variantes, les circonstances de sa production, les collaborateurs et leur statut -->
+      <profileDesc>
+         <langUsage>
+            <language ident="lat">Document en latin</language>
+            <language ident="frm">Document en moyen français</language>
+         </langUsage>
+      </profileDesc>
+      <!-- * Informations sur la révision de ce fichier ? -->
+      <revisionDesc>
+         <change status="corrected" when="2023-11-08" who="VJ"/>
+         <change status="corrected" when="2023-11-08" who="LT"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="3" resp="sarasin" facs="https://iiif.chartes.psl.eu/images/endp/FRAN_0393_LL_117/FRAN_0393_05213_L.jpg/full/60,/0/default.jpg" />
+         <div type="chapitre">
+            <head resp="editor">
+               <date when="1451-02-19">Vendredi 19 février 1451</date>
+            </head>
+            <p><label type="date">Veneris XIX februarii</label>, capitulantitus ordinarie dominis :
+            <list type="person">
+               <item>Succentore</item>
+               <item>Ordeimonte</item>
+               <item><persName ref="http://localhost:5173/person/per_189">Chacy</persName></item>
+               <item><persName ref="http://localhost:5173/person/per_130">Breton</persName></item>
+               <item>Cotin</item>
+               <item>Gaillon</item>
+               <item>Barre</item>
+               <item>Haultny</item>
+               <item>Bussi</item>
+               <item><persName ref="http://localhost:5173/person/per_344">Fresnoy</persName></item>
+               <item>Victri</item>
+               <item>Mondidier</item>
+               <item>Aguenin</item>
+               <item>Guerinet</item>
+               <item>T. de Courcellis</item>
+               <item>Melloti</item>
+               <item><persName ref="http://localhost:5173/person/per_438">Jerson</persName></item>
+               <item>Bastardi</item>
+               <item>Pion</item>
+               <item>Sohier</item>
+               <item>P. Thomas</item>
+               <item>Confranc } infirmis</item>
+               <item>De Brolio }</item>
+               <item>De Croces extra</item>
+               <item>Paillard excusato</item>
+            </list></p>
+            <p ana="deliberation" n="1"> <label type="entree">Collacio capellanie Sancti Mederici</label>. Capellania ad altare Sancti Michaelis fundata in ecclesia Sancti <del>Meride</del> Mederici Parisiensis quam ultimate possidebat Petrus Belin, vacans ad presens per resignacionem magistri Stephani de Toussi, procuratoris et procuratorio nomine ejusdem Petri, ex causa permutacionis et non alias faciende cum Dionisio Belin, fratre dicti Petri, ad capellaniam Sancte Katherine in ecclesia Sancti Petri Puellarum Bicturis, ad dictam capellaniam sancte Katherine suaque jura etc. Salvo jure cujuslibet, prestito prius juramento per dictos procuratorem nomine quo supra et dictum ᗞyonisium quod in hujusmodi resignacione non intervenient fraus etc. Collata est dicto Dionisio presenti qui juravit in forma, et fuit installatus in ecclesia Parisiensi et dicti Sancti Mederici.</p>
+            <pb n="4" resp="sarasin" facs="https://iiif.chartes.psl.eu/images/endp/FRAN_0393_LL_117/FRAN_0393_05214_L.jpg/full/60,/0/default.jpg" />
+            <p ana="deliberation" n="2"> <supplied><gap /></supplied> <label type="entree">eundo faciendi servicium propter sanctum Sacramentum</label>. <gap /> proxime eveniet<gap /> questio est de <gap /> propter quod domini sunt oppinionis quoe super hoc conferatur <gap /> loci et videantur statuta et ordinaciones ecclesie et alia ad hoc servicium et <supplied><gap /></supplied>.</p>
+            <p ana="deliberation" n="3"> <label type="entree">De magistro Johanne Vaillant</label>. Ordinatum est quod videantur statuta ecclesie et summatur magister Johannes de Courcellis alias Vaillant, presbyter, canonicus Sancti Dyonisii de Passu, de residencia facienda in ecclesia Parisiensi et de deserviendo beneficio suo debite ut tenetur et prout juravit, alioquin provideatur etc.</p>
+            <p ana="deliberation" n="4"> <label type="entree">De promotore contra Halle</label>. De promotore capituli, videlicet Bernasse, actore ad denunciacionem Petri Patignon contra magistrum Petrum Halle, magnum vicarium in ecclesia Parisiensi, ex officio. Ordinatum est quod causa principalis remictatur coram officiali capituli, et preceptum est eidem Halle sub pena excommunicacionis et XX marcharum argenti, quod de cetero non <del>con</del><del>s</del> converset cum uxore dicti Petri in loco suspecto, et quod ponat eam extra domum suam in loco honesto et non suspecto ; Et est sibi assignatum dies ad primun capitulum ad respondendum coram dicto officiali.</p>
+         </div>
+         <div type="chapitre">
+            <head resp="editor"><date when="1451-02-22">Lundi 22 février 1451</date></head>
+            <p ana="non_deliberation"><label type="date">Lune XXII februarii </label>fuit festum cathedre Sancti Petri</p>
+         </div>
+         <div type="chapitre">
+            <head resp="editor"><date when="1451-02-24">Mercredi 24 février 1451</date></head>
+            <p ana="non_deliberation"><label type="date">Mercurii sequenti XXIIII <del>fes</del> februarii</label> fuit festum sancti Mathie apostoli</p>
+            <pb n="5" resp="sarasin" facs="https://iiif.chartes.psl.eu/images/endp/FRAN_0393_LL_117/FRAN_0393_05215_L.jpg/full/60,/0/default.jpg" />
+         </div>
+         <div type="chapitre">
+            <head resp="editor"><date when="1451-02-26">Vendredi 26 février 1451</date></head>
+            <p><label type="date">Veneris XXVI februarii</label> <supplied>capitulantibus dominis</supplied> :
+            <list type="person">
+               <item>Succentore</item>
+               <item>Cancellario</item>
+               <item>Fresnoy</item>
+               <item>Ordeimonte</item>
+               <item>De Croces</item>
+               <item>Victri</item>
+               <item>Chacy</item>
+               <item>Mondidier</item>
+               <item>Breton</item>
+               <item>Dauge</item>
+               <item>Cotin</item>
+               <item>Gaillon</item>
+               <item>Paillard</item>
+               <item>Aguenin</item>
+               <item>Barre</item>
+               <item>Jerson</item>
+               <item>Haultny</item>
+               <item>Bussi</item>
+               <item>Guerine</item>
+               <item>De Courcellis</item>
+               <item>De Brolio</item>
+               <item>Melloti</item>
+               <item>Bastardi</item>
+               <item>Sohier</item>
+               <item>Pion</item>
+               <item>P. Thomas</item>
+               <item>Fraxinis</item>
+               <item>Confranc infirmo</item>
+            </list></p>
+            <p ana="deliberation" n="1"> <label type="entree">Collacio capellanie ecclesie Sepulcri</label>. Capellania ad altare Sancte Trinitatis in ecclesia Sepulcri Parisiensi quam nuper possidebat magister Johannes Peliron, vacans ad presens per resignacionem magistri Gilberti Allouf, procuratoris et nomine procuratorio dicti Pelironis, ex causa permutacionis et non alias de ipsa <del>cum magistro Johanne Famuli</del> capellania ac capellania sancti Graciani in ecclesia Abrincensi cum magistro Johanne Famuli ad prebendam ecclesie Abrincencis, salvo jure cujuslibet, collata est dicto Famuli in personam magistri Guillelmi Huberti, ejus procuratoris, qui juravit in forma et fuit installatus in choris Parisiensibus et dicti Sepulcri ecclesiarum, prestito prius per dictos procuratores in <del>aia</del> animas dictorum magistrorum suorum juramento quod in hujusmodi resignacione non intervenient fraus, dolus etc.</p>
+            <p ana="deliberation" n="2"> <label type="entree">Franchomme, Barre</label>. Conclusum est quod arrestantur in manu capituli omnes distribuciones magistri Jacobi Barre, canonici Parisiensis, tam panis capituli quam alias, donec et quousque ipse recuperaverit a nepote magistri Nicolaus Franchomme defuncti omnes licteras, sentencias, processus et sentenciarum fulminaciones quas, ut dicitur, penes se habet dictus Franchomme concernentes prebendam dicti magistri Jacobi et ecclesiam Parisiensem, et quousque domini alias providerint in facto prebende Sancti Benedicti quam nunc possidet dictus Barre ; et ista conclusio dicta est dicto Barre presenti.</p>
+            <p ana="deliberation" n="3"> <label type="entree">De Croces pro domibus de Lizi et de Pecy</label>. Tradat magister Vincencius de Croces, officiarius anniversariorum ecclesie, Antelmo Clementis XX scuta ex una, et XX l. t. partibus ex alia, videlicet dicta XX scuta pro convertendo in reparacionibus et melioracione domus de Lizi, et dictis XX l. t. pro tradendo Laurencio Bernier, firmario domus de Pecy, quas tenebitur restituere ecclesie idem Laurencius prout continetur in licteris obligacionis Castalleti super hoc confectis. Et approbaverunt domini tradicionem factam per dictum officiarium de locis predictis actenta ejus relacione etc.</p>
+            <p ana="delibeation" n="4"><label type="entree">De camerario clerico pro privilegiis ecclesie</label>. Injunctum est camerario clerico ut faciat diligenciam de providendo super facto privilegiorum ecclesie et explectorum nuper factorum ex parte gencium regis.</p>
+            <p ana="deliberation" n="5"> <label type="entree">D'Oultrebays</label>.Visis licteris baillivi d’Oultrebays pro habitantibus loci, domini sunt oppinionis quod cancellarius et officiarius loquantur cum hominibus hic propter hoc comparentatibus, et respectu salis loquatur cum magistro Thoma de Courcellis et ejus fratre, et respectu arreragiorum loquatur cum magistro Johanne du Drac, et respectu gencium armorum <del>loquatur</del> officiarius providebit, et respectu feodi officiarius se informabit.</p>
+            <pb n="6" resp="sarasin" facs="https://iiif.chartes.psl.eu/images/endp/FRAN_0393_LL_117/FRAN_0393_05216_L.jpg/full/60,/0/default.jpg" />
+         </div>
+         <div type="chapitre">
+            <head resp="editor"><date when="1451-03-01">Lundi 1<hi rend="sup">er</hi> mars 1451</date></head>
+            <p><label type="date">Lune prima marcii</label>, capitulantibus dominis :
+            <list type="person">
+               <item>Succentore</item>
+               <item>Cancellario</item>
+               <item>Ordeimonte</item>
+               <item>Chacy</item>
+               <item>Breton</item>
+               <item>Cotin</item>
+               <item>Gaillon</item>
+               <item>Barre</item>
+               <item>Haultny</item>
+               <item>Melloti</item>
+               <item>Bussi</item>
+               <item>Fresnoy</item>
+               <item>Victri</item>
+               <item>Mondidier</item>
+               <item>Paillard</item>
+               <item>De Courcellis</item>
+               <item>Aguenin</item>
+               <item>De Brolio</item>
+               <item>Vayli</item>
+               <item>Sohier</item>
+               <item>Bastardi</item>
+               <item>Pion</item>
+               <item>Fraxinis</item>
+               <item>P. Thomas</item>
+               <item>Jerson</item>
+               <item>Boullardi</item>
+               <item>Confranc infirmo</item>
+               <item>De Croces extra</item>
+               <item>Dauge excusato</item>
+            </list></p>
+            <p ana="deliberation" n="1"> <seg rend="endpfrm"><label type="entree">Significacion</label>. Nicolas Bretin a signifié à messeigneurs que demain sera la premiere criee de l’ostel du Lion des estuves en Beaubourg. </seg></p>
+            <p ana="deliberation" n="2"> <label type="entree">De magistro Petro Normanni</label>. Recipiantur dominus Johannes Buyer et <supplied>blanc</supplied> in clericis matutinarum et amoveatur a provisione magister Petrus Normani, magnus vicarius, quia non facit debitum suum sed habebit suum panem capituli et suas distribuciones quando lucrabitur.</p>
+            <p ana="deliberation" n="3"> <label type="entree">De candellis Liricantus</label>. Ordinatum est quod inhibeatur sub pena confiscacionis candellarum et emende quod de cetero non vendantur amplius apud Sanctum Mathurinum de Liricantu nisi candele gallice <seg rend="endpfrm">de bougie </seg>prout fit in ecclesia Parisiensi et quod super hoc scribatur preposito loci et mictantur ibidem Gabriel et clericus magistri Johannis du Drac. <del>non iverunt</del></p>
+            <p ana="deliberation" n="4"> <label type="entree">De terra du Plessis</label>. Domini ratum habuerunt et ratifficaverunt tractatum factum per officialem de terra du Plessys de qua hic locutus est Janart.</p>
+            <p ana="deliberation" n="5"> <label type="entree">De domino de Ormonville</label>. Magister Johannes Bastardi oneratus est de faciendo adjournari dominum de Ormonville et de faciendo arrestari sua bona mobilia de precepto domini locumtenentis, expensis capituli, quas recuperabit ab officiario.</p>
+            <pb n="7" resp="sarasin" facs="https://iiif.chartes.psl.eu/images/endp/FRAN_0393_LL_117/FRAN_0393_05217_L.jpg/full/60,/0/default.jpg" />
+         </div>
+         <div type="chapitre">
+            <head resp="editor"><date when="1451-03-03">Mercredi 3 mars 1451</date></head>
+            <p ana="non_deliberation">CCCCL<hi rend="sup">°</hi></p>
+            <p><label type="date">Mercurii III<hi rend="sup">a</hi>marcii</label>, capitulantibus dominis :
+            <list type="person">
+               <item>Succentore</item>
+               <item>Cancellario</item>
+               <item>Ordeimonte</item>
+               <item><persName ref="http://localhost:5173/person/per_189">Chacy</persName></item>
+               <item><persName ref="http://localhost:5173/person/per_130">Breton</persName></item>
+               <item>Cotin</item>
+               <item>Gaillon</item>
+               <item>Barre</item>
+               <item>Haultny</item>
+               <item>Bussi</item>
+               <item><persName ref="http://localhost:5173/person/per_344">Fresnoy</persName></item>
+               <item><persName ref="http://localhost:5173/person/per_279">De Croces</persName></item>
+               <item>Victri</item>
+               <item>Mondidier</item>
+               <item>Dauge</item>
+               <item>Paillardi</item>
+               <item>Aguenin</item>
+               <item><persName ref="http://localhost:5173/person/per_438">Jerson</persName></item>
+               <item>Melloti</item>
+               <item>De Brolio</item>
+               <item>De Courcellis</item>
+               <item>Vayli</item>
+               <item>Sohier</item>
+               <item>P. Thomas</item>
+               <item>Boullardi</item>
+               <item>Fraxinis</item>
+               <item>Bastardi</item>
+               <item>Pion</item>
+               <item>Confranc infirmo</item>
+            </list></p>
+            <p ana="deliberation" n="1"> <seg rend="endpfrm"><label type="entree">Adjournement.</label> Nicolaus Breton a adjourné messeigneurs à demain contre les religieux de l’ostel Dieu de Paris à oir une demande et requeste.</seg></p>
+            <p ana="deliberation" n="2"> <seg rend="endpfrm"><label type="entree">Adjournement</label>. Jehan Porchet a adjourné messeigneurs à demain contre Jehan Lienart par devant maistre Jehan Turquain. </seg></p>
+            <p ana="deliberation" n="3"> <label type="entree">De domo – Materiam</label>. Dauge, Cajart Succentor, Ordeimonte} deputantur ad faciendum fieri licteras obligacionis de tradicione domus de super materiam de qua hic locutus est dictus Dauge que tradita est pro XXIIII s. p.</p>
+            <p ana="deliberation" n="4"> <label type="entree">De licteris capituli scribendis.</label> Hodie magister G. Dauge qui intendit de proximo ire erga regem obtulit facere pro ecclesia quicquid poterit erga regem propter quod ordinatum est quod scribatur ex parte capituli magistro Johanne Picardi pro facto redditus de Meaulx et de Corbollio, et similiter magistro Roberto Poytevin.</p>
+            <p ana="deliberation" n="5"> <label type="entree">Ravant</label>. Audita relacione magistri Johannis Paillard qui retulit quod Ravandus Le Dannoys vult et offert tradere ecclesie Parisiensi unam domum suam prope de Mons pro una missa de nostra Domina celebranda in ecclesia Parisiensi vita sua comite et solvere C s. p. pro distribucione ejusdem facienda, et post ejus decessum fiat anniversarium quolibet anno imperpetuum. Ordinatum est quod tradatur in scriptis illud quod petitur.</p>
+            <p ana="deliberation" n="6"> <label type="entree">De serviente et procuratore apud Herbelay</label>. Audita relacione magistri Vincencii de Croces, ipse magister Vincencius providebit de serviente et  procuratore apud Herbelay pro juridiccione capituli Parisiensis ibidem excercenda.</p>
+            <p ana="deliberation" n="7"> <label type="entree">Causa promotoris</label>. De promotore capituli, videlicet Bernasse, actore contra magistrum Johannem Josson, capellanum in ecclesia Parisiensi, nuper citatum ex officio reum ; promotor ipse proposuit contra dictum reum coram officiali capituli qualiter ipse reus nuper tradiderat cuidem custurario quandam domum sitam juxta parvum pontem de qua, ut dicebat, erat proprietarius, pro VI l. p. redditus eidem sue capellanie solvendi, et pro XX s. p. redditus eidem capellano nomine suo ipso solvendis, et quod super hoc passaverat licteras coram duobus notariis Castalleti Parisiensis per quas promisit et juravit facere ratifficacionem hujusmodi tradicionem <del>capituli</del> per capitulum, in quibus licteris non fiebat mencio de dictis XX s. p . Et nichilominus tradicione hujusmodi sic per dictum capellanum dicto custurario de dicta et pro L. l. convertantes in reparacionibus ipsum custurarium decipiendo ac dictam capellaniam deffraudando et perjurium incurrendo, quod factum confessus fuit et emendare capitulo obtulit propterque hujusmodi negocium fuit remissum capitulo.</p>
+            <pb n="8" resp="sarasin" facs="https://iiif.chartes.psl.eu/images/endp/FRAN_0393_LL_117/FRAN_0393_05218_L.jpg/full/60,/0/default.jpg" />
+            <p ana="deliberation" n="8"> <label type="entree">Herbelay<note place="bottom"><hi rend="i">Herbelay</hi> est répété une seconde fois en marge de la 3<hi rend="sup">e</hi> conclusion et une accolade rejoint l’ensemble des quatre conclusions relatives à Herbelay. </note>.</label> Gerardus de Beaunes, scutiffer, constitutus est procurator apud Herbelay ad requirendum et prosequendum homines et hospites capituli.</p>
+            <p>Dionisius Rigault constitutus seu institutus prepositus ibidem pro capitulo.</p>
+            <p>Philippus Paumier institutus serviens capituli ibidem.</p>
+            <p>Ordinatum est quod domus de carceribus dicti loci d’Erbelay reparetur et quod jura et redditus ecclesie ibidem tradantur ad firmam ut melius et utilius poterit, et de hoc oneratus est De Croces.</p>
+         </div>
+         <div type="chapitre">
+            <head resp="editor"><date when="1451-03-05">Vendredi 5 mars 1451</date></head>
+            <p><label type="date">Veneris quinta marcii</label>, capitulantibus dominis :</p>
+            <p ana="non_deliberation">Sunt XXX valent XX s.
+            <list type="person">
+               <item>Archidiacono de Josayo</item>
+               <item>Succentore</item>
+               <item>Cancellario</item>
+               <item>Ordeimonte</item>
+               <item>Chacy</item>
+               <item>Breton</item>
+               <item>Cotin</item>
+               <item>Gaillon</item>
+               <item>Barre</item>
+               <item>Haultny</item>
+               <item>Bussi</item>
+               <item>Fresnoy</item>
+               <item>De Croces</item>
+               <item>Victri</item>
+               <item>Mondidier</item>
+               <item>Paillard</item>
+               <item>Aguenin</item>
+               <item>Jerson</item>
+               <item>Melloti</item>
+               <item>De Courcellis</item>
+               <item>Vayli</item>
+               <item>Sohier</item>
+               <item>P. Thomas</item>
+               <item>Boullardi</item>
+               <item>Pion</item>
+               <item>Bastardi</item>
+               <item>Fraxinis</item>
+               <item>De Brollio excusato</item>
+               <item>Confranc infirmo</item>
+            </list></p>
+            <p ana="deliberation" n="1"> <label type="entree">Collacio capellanie ecclesie Parisiensis</label>. Capellania ad altare Sancti Eutropii quam nuper obtinebat in ecclesia Parisiensi G. De Croces, vacans ad presens per resignacionem magistri Vincencii de Croces, ejus procuratoris ad hoc potestatem habentis, ex causa permutacionis et non alias faciende, cum magistro Johanne Bacularii, consiliario regis, ad capellaniam Sancti Georgii in ecclesia Beate Marie Magdalene de Magduno, salvo jure cujuslibet collata est dicto magistro Johanne Bacularii in persona magistri Johannis Bastardi, ejus procuratoris ad hoc fundati, qui juravit in forma et fuit installatus prestito prius juramento per dictos procuratores nominibus predictis quod in hujusmodi resignacione non intervenient fraus dolus etc.</p>
+            <p ana="deliberation" n="2"> <label type="entree">De molendino de Cristollio</label>. Hodie in capitulo Parisiensi Gilectus Hemon, molendinarius tenens molendinum de Cristollio pro octo annis, ut dicitur, de quibus sunt jam IIII<hi rend="sup">or</hi> elapsii et IIII<hi rend="sup">or</hi> venturus, peciit et requisivit quod forum suum sibi teneatur de dicto molendino aut quod recompensetur <del>antequam</del> de suis dampnis etc. antequam tradatur G. Parisot. Super quo ordinatum est quod primo videatur in quo statu est molendinum predictum et secundum quod videbitur tractabitur cum dicto Egidio si possit fieri sinantem, habentur oppinio consilii ecclesie, et ad hoc deputatus est De Croces officiarius.</p>
+            <pb n="9" resp="sarasin" facs="https://iiif.chartes.psl.eu/images/endp/FRAN_0393_LL_117/FRAN_0393_05219_L.jpg/full/60,/0/default.jpg" />
+         </div>
+         <div type="chapitre">
+            <head resp="editor"><date when="1451-03-08">Lundi 8 mars 1451</date></head>
+            <p><label type="date">Lune VIII<hi rend="sup">a</hi> marcii</label>, capitulantibus dominis :</p>
+            <p ana="non_deliberation">Sunt XXVIII valent XVIII s. VIII d.
+            <list type="person">
+               <item>Archidiacono de Josayo</item>
+               <item>Succentore</item>
+               <item>Cancellario</item>
+               <item>Ordeimonte</item>
+               <item>Chacy</item>
+               <item>Breton</item>
+               <item>Cotin</item>
+               <item>Gaillon</item>
+               <item>Haultny</item>
+               <item>Fresnoy</item>
+               <item>De Croces</item>
+               <item>Victri</item>
+               <item>Mondidier</item>
+               <item>Aguenin</item>
+               <item>Jerson</item>
+               <item>Dauge</item>
+               <item>De Courcellis</item>
+               <item>Melloti</item>
+               <item>De Brollio</item>
+               <item>Fraxinis</item>
+               <item>Bastardi</item>
+               <item>Pion</item>
+               <item>Sohier</item>
+               <item>Boullardi</item>
+               <item>P. Thomas</item>
+               <item>Paillard excusato</item>
+               <item>Confranc infirmo</item>
+            </list></p>
+            <p ana="deliberation" n="1"> <seg rend="endpfrm"><label type="entree">Adjournement</label>. Pierre Musnier a adjourné messeigneurs à jeudi contre Jehan Lienard sur Deux deffaults.</seg></p>
+            <p ana="deliberation" n="2"> <label type="entree">Collacio capellanie ecclesie Parisiensis</label>. Capellania ad altare Sancti Bartholomei in ecclesia Parisiensi vacans per resignacionem magistri Johannis Chuffart, procuratoris et nomine procuratorio G. Plouchet, ultimi dicte capellanie capellani et possessoris, ex causa permutacionis et non alias faciende cum magistro Jacobo Guyon, licenciato in decretis, ad capellaniam Sancti Cucuberti in ecclesia Sancti Mathurini Parisiensis,salvo juro cujuslibet, prestito prius per dictum procuratorem nomine quo supra et dictum magistrum Jacobum juramento quod in hujusmodi resignacione non intervenient fraus etc. collata est dicto magistro Jacobo presenti qui juravit in forma / et fuit installatus etc.</p>
+            <p ana="deliberation" n="3"> <label type="entree">De camerario clerico pro priore Sancti Maglorii</label>. Habeat camerarius clericus mandatum capituli de tradendo priori Sancti Maglorii IIII<hi rend="sup">or</hi> scuta auri per composicionem factam cum ipso.</p>
+            <p ana="deliberation" n="4"> <label type="entree">De Croces pro domino succentore</label>. Tradat et solvat magister Vincenciusde Crosses, officiarius horarum et vini et prebendarum foranearum, magistro Johanne de Oliva, canonico et succentore ecclesie Parisiensis, XV l. p. videlicet VIII l. loco IIII<hi rend="sup">or</hi> caudarum vini albi sibi debitarum ut dixit ad causam sue succentorie super dicto officio vini per composicionem cum ipso factam, et VII l. p. sibi debitas super redditus et proventus de Spedona, et hoc pro isto anno.</p>
+            <p ana="deliberation" n="5"> <label type="entree">G. des Fossez, magister Johannes Capeti</label>. Visa requesta hic pro parte G. des Fossez, scutifferis, et magistri Johannis Capeti, curati de Spedona <del>P</del> tradita, placet dominis quod ipsi supplicantes possint facere et erigere unum pressorium seu torculare ibidem ad vitam dumtaxat ipsorum G. et Capeti et non filii dicti G., solvendo propter hoc anno quolibet capitulo Parisiensi IIII<hi rend="sup">or</hi> gallice <seg rend="endpfrm">barilz</seg> de vini, si non possit ab eisdem haberi quinque gallice <seg rend="endpfrm">barilz</seg>. quia petunt moderacionem de octo pro IIII<hi rend="sup">or</hi> <seg rend="endpfrm">barilz</seg> gallice.</p>
+            <p ana="deliberation" n="6"> <label type="entree">De camerario clerico et domino succentore</label>. Fiat et tradatur mandatum capituli camerario clerico de solvendo domino succentore ecclesie Parisiensis illud quod sibi debetur ad causam sue succentorie super officio Camere prout habuit anno preterito, videlicet super recepta Corbolii a receptore Parisiensi et VI l. p. pro termino <del>sancti Remigii proxime</del> Bartholomei dum terminus evenerit.</p>
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

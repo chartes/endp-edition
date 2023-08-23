@@ -5,14 +5,11 @@
 Ce dépôt contient le matériel et les outils de suivi pour la transcription et l'édition TEI des registres 
 du projet e-NDP.
 
----
 ## Sommaire
 
 1. [Tableau de suivi](#tableau-de-suivi)
-2. [Arborescence du dépôt](#arborecence-du-dépôt)
-2. [Projet e-NDP](#projet-e-ndp)
-
----
+2. [Arborescence du dépôt](#arborescence-du-dépôt)
+3. [Projet e-NDP](#projet-e-ndp)
 
 ### Tableau de suivi
 
@@ -62,6 +59,9 @@ Légende :
 - Blog du projet ANR e-NDP : https://endp.hypotheses.org/
 - Le projet est porté par [cinq institutions partenaires](https://endp.hypotheses.org/partenaires) : 
 
-![partenaires eNDP](./assets/banner-partners-home.png)
+----
 
-<img alt="anr logo" src="./assets/ANR-logo-C.jpg" width="30" height="30">
+<div style="display: flex; justify-content: space-between;">
+    <img alt="partenaires e-NDP" src="./assets/banner-partners-home.png" style="width: 250px; height: 150px; margin-right: 10px;">
+    <img alt="anr logo" src="./assets/ANR-logo-C.jpg" style="width: 100px; height: 100px; margin-left: 10px;">
+</div>

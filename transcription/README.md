@@ -1,10 +1,12 @@
 # Matériel de transcription 
 
-## Lien vers les images des registres :camera_flash: (méthode actuelle)
+## Liens vers images des registres :camera_flash: 
 
-<img src="../assets/nakala-square.svg"> Lien vers Nakala : [https://nakala.fr/collection/10.34847/nkl.03cbi521](https://nakala.fr/collection/10.34847/nkl.03cbi521) 
+### Dépôt Nakala (méthode actuelle)
 
-## Lien vers les images :camera_flash: (obsolète)
+<img src="../assets/nakala-square.svg" width="30px" height="30px"> [https://nakala.fr/collection/10.34847/nkl.03cbi521](https://nakala.fr/collection/10.34847/nkl.03cbi521) 
+
+### Dépôts Sharepoints (méthode obsolète)
 
 - LL105 : https://univpsl-my.sharepoint.com/:f:/g/personal/lucas_terriel_chartes_psl_eu/EuU8JC0pWkNNqqtuYkiRpL8Bw35DjylPjspywGcrm9waMg?e=0Tle6q
 

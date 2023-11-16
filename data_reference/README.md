@@ -1,8 +1,12 @@
 # Données e-NDP de référence
 
 
-Données de référence au niveau registre et page ainsi que les ressources et métadonnées associées (liage aux
-services Nakala, SIV, DTS, manifeste etc.).
+Données de référence au niveau registre et des page des registres. Comprend les métadonnées disponibles et les liens aux différents services du projet e-NDP pour une instance matériel (niveau registre ou niveau page):  
+
+- Identifiants Nakala pour les images ;
+- Paramètres NoSketch pour l'indexation de corpus ;
+- Liens vers la Salle de lecture virtuelle (ex-SIV des Archives nationales) ;
+- Identifiants DTS pour les éditions (en cours).
 
 ## `endp_registres_metadata.csv` (niveau registre)
 
